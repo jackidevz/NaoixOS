@@ -74,6 +74,7 @@ NaoixOS is a minimal x86 kernel, built from scratch as a learning/hobby project 
 - No multitasking / scheduler.
 - No real storage device drivers.
 - A confirmed `CMOV` instruction failure on virtual 486/Pentium CPUs, left intentionally unfixed for now (the kernel targets newer CPUs).
+- No shutdown/reboot command or button (no ACPI support)
 
 ## Build & Run
 
