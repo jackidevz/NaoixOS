@@ -27,6 +27,8 @@
 
 **المطوّر (Developer):** Jack (Khalid Oumouh)
 
+**يمكنك قراءة التوثيق بلغات متعددة [هنا](#documentation)**
+
 ---
 
 ## ⚠️ تحذيرات هامة قبل أي شيء (Read Before Anything Else)
@@ -113,7 +115,9 @@ naoixos/
 ├── linker.ld / linker-legacy.ld
 └── Makefile
 ```
-## التوثيق (Documentation)
+
+## Documentation
+### التوثيق
 
 - ![Arabic](README-ar.md)
 - ![English](README.md)

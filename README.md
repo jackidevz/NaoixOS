@@ -26,7 +26,7 @@
 
 **Developer:** Jack (Khalid Oumouh)
 
-**Read Documentation in multiple languages ![here](## Documentation)**
+**Read Documentation in multiple languages [here](#documentation)**
 
 ---
 
