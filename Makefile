@@ -38,12 +38,12 @@ ifeq ($(COMPILER_ID),clang)
     CFLAGS  += --target=$(TARGET_TRIPLE)
     ASFLAGS += --target=$(TARGET_TRIPLE)
     LD      := ld.lld
-    LDFLAGS := -m elf_i386
+    LDFLAGS := -m elf_i386 -Wl,--strip-all
 else
     CFLAGS  += -m32
     ASFLAGS += -m32
     LD      := $(CC)
-    LDFLAGS := -m32 -ffreestanding -nostdlib -static
+    LDFLAGS := -m32 -ffreestanding -nostdlib -static -Wl,--strip-all
 endif
 
 LEGACY_BUILD_DIR := build-legacy

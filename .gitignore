@@ -3,3 +3,4 @@ build-legacy
 */*.o
 */*.a
 *.test
+*.mk
