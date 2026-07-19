@@ -22,7 +22,7 @@
 
 **Version:** `v0.6.8-rc1`
 
-**Embedded Shell:** NaoixSH `v0.2.3-patchV1`
+**Embedded Shell:** NaoixSH `v0.2.3-patchV2`
 
 **Developer:** Jack (Khalid Oumouh)
 

@@ -23,7 +23,7 @@
 
 **الإصدار (Version):** `v0.6.8-rc1`
 
-**الشِل المدمج (Embedded Shell):** NaoixSH `v0.2.3-patchV1`
+**الشِل المدمج (Embedded Shell):** NaoixSH `v0.2.3-patchV2`
 
 **المطوّر (Developer):** Jack (Khalid Oumouh)
 
