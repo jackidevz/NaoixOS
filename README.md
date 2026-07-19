@@ -81,6 +81,10 @@ NaoixOS is a minimal x86 kernel, built from scratch as a learning/hobby project 
 
 - Read changelog ![here](CHANGELOG.md)
 
+## Compatibility
+
+- Read compatibility log ![here](COMPATIBILITY.md)
+
 ## Build & Run
 
 Requires `clang` + `ld.lld` (or `gcc` as a fallback), `qemu-system-i386` for testing, and `grub-mkrescue` to build an ISO.
