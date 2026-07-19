@@ -161,7 +161,7 @@ static void run_command(const char *line) {
         terminal_setcolor(VGA_LIGHT_BROWN, VGA_BLACK);
         terminal_writestring("Shell :");
         terminal_setcolor(VGA_WHITE, VGA_BLACK);
-        terminal_writestring(" NaoixSH - basic x86 embeded shell hor NaoixOS.\n");
+        terminal_writestring(" NaoixSH - basic x86 embedded shell for NaoixOS.\n");
         terminal_setcolor(VGA_LIGHT_GREY, VGA_BLACK);
     } else if (strcmp(line, "clear") == 0) {
         terminal_initialize();
@@ -177,7 +177,11 @@ static void run_command(const char *line) {
 	terminal_setcolor(VGA_LIGHT_GREY, VGA_BLACK);
     } else if (strcmp(line, "colors") == 0) {
         print_color_bar();
-    } else if (strcmp(line, "hidden-easter-egg", "heaster") == 0) {
+    } else if (strcmp(line, "easterg") == 0) {
+        terminal_setcolor(VGA_LIGHT_GREY, VGA_RED);
+        terminal_writestring("You found the hidden message writen by the developer jackidevz (Khalid Oumouh)\nIf you are seeing this right now, i wanna say Thank you very much for use my\nNaoixOS.\nI will give you a little gift\n Type 'jackmasterdev' or 'jmdevel' in terminal to see it!\n");
+        terminal_setcolor(VGA_LIGHT_GREY, VGA_BLACK);
+    } else if (strcmp(line, "hidden-easter-egg") == 0) {
         terminal_setcolor(VGA_LIGHT_GREY, VGA_RED);
         terminal_writestring("You found the hidden message writen by the developer jackidevz (Khalid Oumouh)\nIf you are seeing this right now, i wanna say Thank you very much for use my\nNaoixOS.\nI will give you a little gift\n Type 'jackmasterdev' or 'jmdevel' in terminal to see it!\n");
         terminal_setcolor(VGA_LIGHT_GREY, VGA_BLACK);
@@ -227,7 +231,7 @@ void naoixsh_init(void) {
     terminal_setcolor(VGA_LIGHT_BROWN, VGA_BLACK);
     terminal_writestring(" " KEVER "\n");
     terminal_setcolor(VGA_LIGHT_GREEN, VGA_BLACK);
-    terminal_writestring("Running embeded shell NaoixSH...\n");
+    terminal_writestring("Running embedded shell NaoixSH...\n");
     terminal_writestring("NaoixSH");
     terminal_setcolor(VGA_RED, VGA_BLACK);
     terminal_writestring(" " SHVER);
